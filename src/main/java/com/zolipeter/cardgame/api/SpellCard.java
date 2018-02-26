@@ -3,6 +3,7 @@ package com.zolipeter.cardgame.api;
 public class SpellCard extends Card {
     private String effect;
     private int effectValue;
+
     public SpellCard(String name, String type, String rarity,String effect,int effectValue) {
         super(name, type, rarity);
         this.effect = effect;

@@ -19,6 +19,7 @@ public class CSVParser {
                 deck.add(fighterCard);
             } else {
                 SpellCard spellCard = new SpellCard(card[0],card[1],card[2],card[3],Integer.parseInt(card[4]));
+                deck.add(spellCard);
             }
         }
         return deck;
