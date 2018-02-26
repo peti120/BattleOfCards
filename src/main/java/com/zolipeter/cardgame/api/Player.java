@@ -33,7 +33,7 @@ public interface Player {
 
     void pickCard();
 
-    void chooseCard();
+    void chooseCard(String name);
 
     boolean canUseSpell();
 

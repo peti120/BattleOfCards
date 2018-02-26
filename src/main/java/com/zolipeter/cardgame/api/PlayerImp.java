@@ -108,7 +108,7 @@ public class PlayerImp implements Player{
     }
 
     @Override
-    public void chooseCard() {
+    public void chooseCard(String name) {
         for (Card card : hand) {
             if (card instanceof FighterCard) {
                 if (card.getName().toLowerCase().equals(name.toLowerCase())) {
