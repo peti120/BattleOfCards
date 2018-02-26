@@ -5,8 +5,10 @@ public class FighterCard extends Card {
     private int attackPoint;
     private int defensePoint;
 
-    public FighterCard(String name) {
-        super(name);
+    public FighterCard(String name,String type, String rarity, int attackPoint, int defensePoint) {
+        super(name,type,rarity);
+        this.attackPoint = attackPoint;
+        this.defensePoint = defensePoint;
     }
 
     public String getPosition() {
